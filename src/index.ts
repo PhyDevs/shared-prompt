@@ -35,6 +35,7 @@ export interface ICoachaaPromptMap {
   }
 }
 
+export type { ICoachaaPrompt }
 
 
 // -============-

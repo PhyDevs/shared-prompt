@@ -1,7 +1,7 @@
-import { ICoachaaPrompt } from "./common/interface/prompt-interface"
-import { CallAnalysisPrompt, CallAnalysisPayload, CallAnalysisOutput } from "./prompts/call-analysis"
-import { TrainingGenerationPrompt, TrainingGenerationPayload, TrainingGenerationOutput } from "./prompts/training-generation"
-import { TrainingEvaluationPrompt, TrainingEvaluationPayload, TrainingEvaluationOutput } from "./prompts/training-evaluation"
+import { ICoachaaPrompt } from "@/common/interface/prompt-interface"
+import { CallAnalysisPrompt, CallAnalysisPayload, CallAnalysisOutput } from "@/prompts/call-analysis"
+import { TrainingGenerationPrompt, TrainingGenerationPayload, TrainingGenerationOutput } from "@/prompts/training-generation"
+import { TrainingEvaluationPrompt, TrainingEvaluationPayload, TrainingEvaluationOutput } from "@/prompts/training-evaluation"
 
 // ==> 1: Add prompt name same as in Database
 export enum COACHAA_PROMPT {

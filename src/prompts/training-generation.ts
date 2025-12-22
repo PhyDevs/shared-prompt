@@ -1,4 +1,4 @@
-import { ICoachaaPrompt } from "../common/interface/prompt-interface"
+import { ICoachaaPrompt } from "@/common/interface/prompt-interface"
 
 const user_prompt = ``
 const system_prompt = ``

@@ -1,7 +1,13 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "rootDir": "src",
     "outDir": "dist",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+    },
     "declaration": true,
     "declarationMap": true,
     "emitDeclarationOnly": false,
@@ -12,5 +18,7 @@
     "esModuleInterop": true,
     "skipLibCheck": true
   },
-  "include": ["src"]
+  "include": [
+    "src"
+  ]
 }

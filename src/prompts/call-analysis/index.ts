@@ -75,4 +75,5 @@ export type CallAnalysisOutput = z.infer<typeof CallAnalysisOutputSchema>
 export const CallAnalysisPrompt: ICoachaaPrompt = {
   user_prompt: userPrompt,
   system_prompt: systemPrompt,
+  output_validator: CallAnalysisOutputSchema
 }

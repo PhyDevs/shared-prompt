@@ -1,7 +1,7 @@
+import z from "zod"
 import { ICoachaaPrompt } from "@/common/interface/prompt-interface"
 import systemPrompt from "./system-prompt.md"
 import userPrompt from "./user-prompt.md"
-import z from "zod"
 
 
 export type TrainingGenerationPayload = {

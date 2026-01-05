@@ -48,7 +48,7 @@ export const CallAnalysisOutputSchema = z.object({
   call_type: z.number(),
   sales_talking_time: z.number(),
   prospect_budget_estimate: z.number(),
-  competitors: [],
+  competitors: z.array(z.string()),
   list_objections: z.array(z.object({
     type: z.number(),
     text: z.string()

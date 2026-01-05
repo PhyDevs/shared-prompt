@@ -8,7 +8,7 @@ export type TrainingGenerationPayload = {
 }
 
 export type TrainingGenerationOutput = {
-
+  outpout_id: string
 }
 
 export const TrainingGenerationPrompt: ICoachaaPrompt = {

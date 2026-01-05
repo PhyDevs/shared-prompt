@@ -3,15 +3,15 @@ import systemPrompt from "./system-prompt.md"
 import userPrompt from "./user-prompt.md"
 
 
-export type TrainingEvaluationPayload = {
+export type NewPromptPayload = {
   training_evaluation_id: any
 }
 
-export type TrainingEvaluationOutput = {
-  eval_feedback: number
+export type NewPromptOutput = {
+  
 }
 
-export const TrainingEvaluationPrompt: ICoachaaPrompt = {
+export const NewPromptPrompt: ICoachaaPrompt = {
   user_prompt: userPrompt,
   system_prompt: systemPrompt,
 }
